@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb1a6567-f22f-463d-82c0-51d7a6ac78c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/icons/Menu.Icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layouts/main/Header/HeaderLink.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layouts/main/Header/HeaderLinks.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layouts/main/Header/dataHeader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/home/Hero.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/public/AppImage/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Logo/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Logo/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layouts/main/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/main/Footer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layouts/main/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/main/Header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/public-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/public-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +96,7 @@
       <workItem from="1761425303003" duration="3665000" />
       <workItem from="1761586086536" duration="40000" />
       <workItem from="1761586534755" duration="282000" />
-      <workItem from="1761587617843" duration="1355000" />
+      <workItem from="1761587617843" duration="5081000" />
     </task>
     <servers />
   </component>
