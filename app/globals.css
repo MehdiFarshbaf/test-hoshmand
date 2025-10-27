@@ -4,13 +4,17 @@
     --background: #ffffff;
     --foreground: #171717;
     --gray100: #ECECEC;
+    --gray200: #E3E3E3;
+    --gray50: #F9F9F9;
     --gray900: #515151;
     --black900: #141414;
     --black500: #303030;
     --black400: #595959;
     --black200: #A0A0A0;
     --white2: #FCFCFC;
+    --white1: #FFFFFF;
     --primary-main: #7A3DE2;
+    --secondary-main: #43217C;
 }
 
 @layer utilities {
@@ -32,28 +36,32 @@
         @apply flex justify-center items-center;
     }
 }
+
 @theme inline {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
+    --color-gray200: var(--gray200);
     --color-gray100: var(--gray100);
+    --color-gray50: var(--gray50);
     --color-gray900: var(--gray900);
     --color-black200: var(--black200);
     --color-black500: var(--black500);
     --color-black400: var(--black400);
     --color-black900: var(--black900);
     --color-primary-main: var(--primary-main);
+    --color-secondary-main: var(--secondary-main);
     --color-white2: var(--white2);
+    --color-white1: var(--white1);
 
     /*--font-sans: var(--font-geist-sans);*/
     /*--font-mono: var(--font-geist-mono);*/
     --font-yekan-num: var(--font-yekan-bakh-num);
 }
-.bg-hero{
+.bg-hero {
     background: var(--white2);
     /*background: #FCFCFC;*/
     backdrop-filter: blur(30px)
 }
-
 
 
 @media (prefers-color-scheme: dark) {

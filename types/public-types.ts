@@ -19,3 +19,10 @@ export interface HeaderMenu {
     label: string;
     path: string;
 }
+
+export interface SliderItem {
+    id: number;
+    title: string;
+    description: string;
+    image: string;
+}

@@ -1,9 +1,11 @@
-import Hero from "@/components/pages/home/Hero";
+import HeroHome from "@/components/pages/home/Hero.Home";
+import SliderHome from "@/components/pages/home/Slider.Home";
 
 export default function Home() {
     return (
         <main className="">
-            <Hero/>
+            <HeroHome/>
+            <SliderHome/>
         </main>
     );
 }

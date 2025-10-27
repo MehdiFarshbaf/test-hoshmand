@@ -4,7 +4,7 @@ import AppImage from "@/components/public/AppImage";
 // img hero
 import imgHero from "@/assets/images/hero.png"
 
-const Hero = () => {
+const HeroHome = () => {
     return (
         <section className="w-full  bg-hero flex-center py-10 md:py-9">
             <div className="main-container flex flex-col-reverse justify-between md:flex-row  w-full">
@@ -30,5 +30,5 @@ const Hero = () => {
         </section>
     )
 }
-export default Hero;
+export default HeroHome;
 
