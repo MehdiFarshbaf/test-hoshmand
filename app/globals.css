@@ -4,7 +4,10 @@
     --background: #ffffff;
     --foreground: #171717;
     --gray100: #ECECEC;
-    --primary: #1C39BA;
+    --gray900: #515151;
+    --black900: #141414;
+    --black500: #303030;
+    --black200: #A0A0A0;
 }
 
 @layer utilities {
@@ -13,9 +16,13 @@
     }
 }
 
-@layer components{
+@layer components {
     .main-container {
         @apply px-4 sm:px-6 max-w-[960px] xl:px-0 2xl:max-w-[1200px] mx-auto;
+    }
+
+    .btn-header {
+        @apply w-8 h-8 md:w-10 md:h-10 rounded-lg border border-gray100 flex justify-center items-center cursor-pointer
     }
 
     .flex-center {
@@ -27,15 +34,20 @@
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --color-gray100: var(--gray100);
+    --color-gray900: var(--gray900);
+    --color-black200: var(--black200);
+    --color-black500: var(--black500);
+    --color-black900: var(--black900);
 
-    --font-sans: var(--font-geist-sans);
-    --font-mono: var(--font-geist-mono);
+    /*--font-sans: var(--font-geist-sans);*/
+    /*--font-mono: var(--font-geist-mono);*/
+    --font-yekan-num: var(--font-yekan-bakh-num);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #0a0a0a;
-        --foreground: #ededed;
+        /*--background: #0a0a0a;*/
+        /*--foreground: #ededed;*/
     }
 }
 

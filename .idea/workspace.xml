@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb1a6567-f22f-463d-82c0-51d7a6ac78c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Logo/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/icons/Search.Icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/icons/User.Icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layouts/main/Footer/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layouts/main/Header/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/public-types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/icons/Menu.Icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layouts/main/Header/HeaderLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layouts/main/Header/HeaderLinks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layouts/main/Header/dataHeader.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Logo/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Logo/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layouts/main/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/main/Footer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layouts/main/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/main/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/public-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/public-types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/MehdiFarshbaf/test-hoshmand.git&quot;,
-    &quot;accountId&quot;: &quot;01c829ff-fb6b-4416-b76f-71617d5ecae8&quot;
+    &quot;accountId&quot;: &quot;fbc721dc-ae98-4b23-b001-e8a64003c428&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -51,16 +52,20 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Soroush/Desktop/wbc-projects/hoshmand&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/Documents/React/my-project/test-hoshmand&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Soroush\\Desktop\\wbc-projects\\hoshmand\\node_modules\\typescript\\lib&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;H:\\Documents\\React\\my-project\\test-hoshmand\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -94,6 +99,10 @@
       <option name="presentableId" value="Default" />
       <updated>1761565295328</updated>
       <workItem from="1761565296467" duration="2940000" />
+      <workItem from="1761425303003" duration="3665000" />
+      <workItem from="1761586086536" duration="40000" />
+      <workItem from="1761586534755" duration="282000" />
+      <workItem from="1761587617843" duration="1355000" />
     </task>
     <servers />
   </component>
