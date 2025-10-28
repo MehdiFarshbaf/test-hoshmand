@@ -3,7 +3,6 @@
 import {HeaderMenu} from "@/types/public-types";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
-import {useEffect} from "react";
 
 interface IProps {
     link: HeaderMenu
@@ -12,10 +11,6 @@ interface IProps {
 const HeaderLink = ({link}: IProps) => {
 
     const pathName = usePathname()
-
-    useEffect(() => {
-        console.log("pathname is : ", pathName);
-    }, [pathName]);
 
     return (
         <Link href={link.path} className="">

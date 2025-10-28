@@ -19,7 +19,7 @@ const HeroHome = () => {
                         رایگان با شماره‌ی زیر تماس بگیرید</p>
                     <div className="w-full flex justify-center md:justify-start">
                         <Link href={'/'}
-                              className="bg-primary-main h-10 md:h-12 rounded-lg px-[30px] md:px-4 text-white ont-semibold md:font-bold text-sm md:text-lg">دریافت
+                              className="bg-primary-main flex-center h-10 md:h-12 rounded-lg px-[30px] md:px-4 text-white ont-semibold md:font-bold text-sm md:text-lg">دریافت
                             مشاوره
                         </Link>
                     </div>

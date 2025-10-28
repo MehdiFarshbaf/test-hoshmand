@@ -1,14 +1,27 @@
-import {HTMLProps, ReactNode} from "react";
+import {HTMLProps} from "react";
+import {
+    Control,
+    FieldErrors, FieldValues,
+    UseFormGetValues,
+    UseFormHandleSubmit,
+    UseFormReset,
+    UseFormSetValue,
+    UseFormWatch
+} from "react-hook-form";
 
 
 export type ClassName = HTMLProps<HTMLElement>["className"]
 
-// export type OptionSelect = { value: number; label: string }
+export interface IHookFormProps<T extends FieldValues = FieldValues> {
+    control: Control<T>;
+    errors?: FieldErrors<T>;
+    watch?: UseFormWatch<T>;
+    setValue?: UseFormSetValue<T>;
+    getValue?: UseFormGetValues<T>;
+    handleSubmit?: UseFormHandleSubmit<T>;
+    reset?: UseFormReset<T>;
+}
 
-export type ChildrenType = ReactNode
-
-export type CallbackFunction = (...args: any[]) => any;
-export type NavItem = { id: number, label: string, path: string }
 
 export interface PropsIcon {
     className?: ClassName,
@@ -25,4 +38,11 @@ export interface SliderItem {
     title: string;
     description: string;
     image: string;
+}
+
+export interface PropsAddCounseling {
+    fullName: string;
+    email: string;
+    phoneNumber: string;
+    description?: string;
 }

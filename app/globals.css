@@ -35,6 +35,14 @@
     .flex-center {
         @apply flex justify-center items-center;
     }
+
+    .label-input {
+        @apply mb-2 md:mb-4 text-black500 font-medium md:font-semibold text-xs md:text-sm;
+    }
+
+    .container-input {
+        @apply flex flex-col w-full;
+    }
 }
 
 @theme inline {

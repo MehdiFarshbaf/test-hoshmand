@@ -60,7 +60,7 @@ const SliderHome = () => {
                                 onSwiper={(swiper: SwiperType) => {
                                     swiperRef.current = swiper;
                                 }}
-                                onSlideChange={() => console.log('slide change')}
+                                // onSlideChange={() => console.log('slide change')}
                                 // onSwiper={(swiper) => console.log(swiper)}
                                 breakpoints={{
                                     500: {
